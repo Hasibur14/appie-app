@@ -17,7 +17,7 @@
                         <div>
                             <img src="./assets/logo-3.png" alt="">
                         </div>
-                        <div class="ml-8 font-semibold space-x-4">
+                        <div class="ml-8 font-semibold space-x-4 hidden lg:flex">
                             <a class="hover:text-orange-600 duration-300" href="">Home</a>
                             <a class="hover:text-orange-600 duration-300" href="">About</a>
                             <a class="hover:text-orange-600 duration-300" href="">Service</a>
@@ -26,11 +26,13 @@
 
                         </div>
                     </div>
-                    <div class="font-semibold space-x-4">
+                    <div class="font-semibold space-x-4 hidden lg:flex">
                         <button>Login</button>
-                        <button
-                            class="bg-[#F00] px-6 py-3 rounded-md text-lg hover:bg-transparent border-2 border-[#F00] ">Get
+                        <button class="bg-[#F00] px-6 py-3 rounded-md text-lg hover:bg-transparent border-2 border-[#F00] ">Get
                             Started</button>
+                    </div>
+                    <div class="md:flex lg:hidden">
+                        <img class="w-8 h-8" src="./assets/more.png" alt="">
                     </div>
 
                 </div>
@@ -40,9 +42,9 @@
     </header>
 
     <main>
-        <section class="bg-[#191d5f] flex flex-col justify-center items-center ">
+        <section class="bg-[#191d5f] flex flex-col justify-center items-center">
             <div class="text-white mt-14 mx-auto space-y-6">
-                <h2 class="text-6xl font-bold ml-10">Creative way to<br>Showcase your <span
+                <h2 class="text-2xl lg:text-6xl font-bold ml-10">Creative way to<br>Showcase your <span
                         class="text-[#F00]">App</span></h2>
                 <p class="opacity-75 text-xl">Your app gets maximum attention and gets more and more downloads</p>
                 <div class="mx-28 space-x-8 flex">
@@ -60,12 +62,63 @@
         <section class="my-48">
             <div class="text-center space-y-4">
                 <h3 class="text-3xl font-bold">What you can do</h3>
-                <p class="w-[50%] mx-auto opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam, perspiciatis quia iusto in
-                    rerum nobis .
-                </p>
+                <p class="w-[50%] mx-auto opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    exercitationem architecto perferendis fuga pariatur accusantium omnis, tempore, id voluptatum illum
+                    ut soluta corporis praesentium iure. Amet magni odio veniam eum!</p>
             </div>
-            <div>
 
+            <!-- box container -->
+            <div class="container mx-auto mt-20 ">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-4 md:gap-6">
+                    <div class=" shadow-xl rounded-md p-8">
+                        <div class="h-20 w-20 rounded-full bg-green-400 mx-auto flex items-center justify-center ">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center space-y-4 ">
+                            <h1 class="font-semibold">Easy to use</h1>
+                            <p class="opacity-65 w-56">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                cumque aliquid eaque.</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-md p-8">
+                        <div class="h-20 w-20 rounded-full bg-yellow-400 mx-auto flex items-center justify-center ">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center space-y-4 ">
+                            <h1 class="font-semibold">Easy to use</h1>
+                            <p class="opacity-65 w-56">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                cumque aliquid eaque.</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-md p-8">
+                        <div class="h-20 w-20 rounded-full bg-blue-400 mx-auto flex items-center justify-center ">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center space-y-4 ">
+                            <h1 class="font-semibold">Easy to use</h1>
+                            <p class="opacity-65 w-56">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                cumque aliquid eaque.</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-md p-8">
+                        <div class="h-20 w-20 rounded-full bg-red-400 mx-auto flex items-center justify-center ">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <div class="text-center space-y-4 ">
+                            <h1 class="font-semibold">Easy to use</h1>
+                            <p class="opacity-65 w-56">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                cumque aliquid eaque.</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
     </main>
